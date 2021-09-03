@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Add Task</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form id="inputform">
+            <center>        
+    <div id="add_todo">
+        <h2>Add Task</h2>
+    <div id="todo_title">
+    <input type="text" id="title" placeholder=" Enter the Title " ><br><br><br>
+    </div>
+    <div id="todo_desc">
+        Description :<textarea id="desc"  maxlength="128" placeholder="Task Description..."></textarea></br><br>
+    </div>
+    <div id="todo_duedate">
+    <input type="date" id="duedate" placeholder="DueDate"></br><br><br>
+    </div>
+    <div id="todo_prio">  
+        Select Priority :<select id="priority">
+            <option value="low">Low</option>
+            <option value="high">High</option>
+        </select><br><br>
+    </div>
+      
+      <div id="todo_submit">
+          <button type="button" id="sub"><a href="index.html">Submit Task</a></button>
+        </div>
+      </div>
+    </center>
+
+    </form>
+        <script src="main.js"></script>
+    </body>
+</html>
